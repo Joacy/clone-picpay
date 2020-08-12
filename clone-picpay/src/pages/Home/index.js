@@ -6,6 +6,8 @@ import {
     MaterialCommunityIcons
 } from '@expo/vector-icons';
 
+import Suggestions from '../../components/Suggestions';
+
 import {
     Wrapper,
     Header,
@@ -28,6 +30,8 @@ const Home = () => {
 
                     <AntDesign name="gift" size={24} color="#10c86e" />
                 </Header>
+
+                <Suggestions />
             </ScrollView>
         </Wrapper>
     );
