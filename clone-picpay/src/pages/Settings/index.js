@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import { Container } from './styles';
+import { Wrapper } from './styles';
 
 const Settings = () => {
     return (
-        <Container>
-            <Text>Página settings</Text>
-        </Container>
+        <Wrapper>
+            <Text style={{ color: "#fff" }}>Página settings</Text>
+        </Wrapper>
     );
 }
 

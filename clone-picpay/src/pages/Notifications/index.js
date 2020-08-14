@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import { Container } from './styles';
+import { Wrapper } from './styles';
 
 const Notifications = () => {
     return (
-        <Container>
-            <Text>Notifications</Text>
-        </Container>
+        <Wrapper>
+            <Text style={{ color: "#fff" }}>Notifications</Text>
+        </Wrapper>
     );
 }
 
