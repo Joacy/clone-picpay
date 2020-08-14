@@ -8,6 +8,7 @@ import {
 
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
+import Tips from '../../components/Tips';
 
 import {
     Wrapper,
@@ -35,6 +36,8 @@ const Home = () => {
                 <Suggestions />
 
                 <Activities />
+
+                <Tips />
             </ScrollView>
         </Wrapper>
     );
