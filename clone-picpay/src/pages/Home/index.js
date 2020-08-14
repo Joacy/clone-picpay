@@ -7,6 +7,7 @@ import {
 } from '@expo/vector-icons';
 
 import Suggestions from '../../components/Suggestions';
+import Activities from '../../components/Activities';
 
 import {
     Wrapper,
@@ -32,6 +33,8 @@ const Home = () => {
                 </Header>
 
                 <Suggestions />
+
+                <Activities />
             </ScrollView>
         </Wrapper>
     );

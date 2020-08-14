@@ -19,22 +19,22 @@ const options = [
     {
         id: String(Math.random()),
         img: img1,
-        label: "Doações",
+        label: "Recarga",
     },
     {
         id: String(Math.random()),
         img: img2,
-        label: "Doações",
+        label: "Uber",
     },
     {
         id: String(Math.random()),
         img: img3,
-        label: "Doações",
+        label: "Ônibus",
     },
     {
         id: String(Math.random()),
         img: img4,
-        label: "Doações",
+        label: "TV",
     },
     {
         id: String(Math.random()),
@@ -44,12 +44,12 @@ const options = [
     {
         id: String(Math.random()),
         img: img6,
-        label: "Doações",
+        label: "Cód. de Barras",
     },
     {
         id: String(Math.random()),
         img: img7,
-        label: "Doações",
+        label: "FAQ",
     },
 ];
 

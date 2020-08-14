@@ -11,6 +11,7 @@ export const Header = styled.View`
     justify-content: space-between;
     height: 50px;
     padding: 0 16px;
+    margin: 8px 0;
 `;
 
 export const BalanceContainer = styled.View`
